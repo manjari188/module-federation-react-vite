@@ -12,7 +12,7 @@ const Detail: React.FC<CounterProps> = ({ initialCount = 0 }) => {
 
   return (
     <div>
-      <h1>Counter: {count}</h1>
+      <h1>Counter: Simple change{count}</h1>
       <button onClick={increment}>Increment</button>
       <button onClick={decrement}>Decrement</button>
     </div>
